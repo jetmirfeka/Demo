@@ -1,0 +1,41 @@
+$bacgorund-nav:#202020;
+$border-color:#d54ab6;
+$text-color:#f2f2f2;
+$background-active:#333;
+.navbar{
+    background-color: $bacgorund-nav;
+    border:none;
+    border-left: 6px solid $border-color;
+    top: 20px;
+    padding: 0;
+    .nav-style{
+        width: fit-content;
+        float: right;
+        padding-right: 20px;
+        min-height: 76px;
+        li
+        {
+            padding-right: 20px;
+            a{
+                color: $text-color;
+                font-size: 13px;
+                padding-top: 27px;
+                height: 100%;
+                display: block;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            a:hover{
+                color: #ffa500;
+            }
+            .active{
+                background-color:$background-active;
+            }
+            .active:hover{
+                background-color: transparent;
+            }
+        }
+        
+    }
+    
+}
