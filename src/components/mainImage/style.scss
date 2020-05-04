@@ -1,21 +1,18 @@
+.background-image {
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 180px;
+  padding-bottom: 100px;
 
-
-
-.background-image{
-    background-size: cover;
-    background-position: center;
-    min-height: 500px;
-    padding-top: 180px;
-    padding-bottom: 100px;
-
-    .texts{
-        margin: 0 auto;
-        width: fit-content;
-        h1, h3{
-            line-height: 30px;
-            font-size: 40px;
-            color: #fff;
-        }
+  .texts {
+    margin: 0 auto;
+    width: fit-content;
+    h1,
+    h3 {
+      line-height: 30px;
+      font-size: 40px;
+      color: #fff;
     }
-    
+  }
 }

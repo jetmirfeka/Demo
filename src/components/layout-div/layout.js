@@ -1,13 +1,9 @@
-import React from 'react'
-
-const layoutDiver = (props) => {
-    return (
-        <div className="container">
-            <div className ="row">
-                {props.children}
-            </div>
-        </div>
-    )
+import React from "react"
+import Container from "../container/container"
+const layoutDiver = props => {
+  return (
+    <Container>{props.children}</Container>
+  )
 }
 
-export default layoutDiver;
+export default layoutDiver
